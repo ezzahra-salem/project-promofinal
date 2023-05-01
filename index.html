@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+</head>
+<style>
+    body{
+        background-image: url('bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+h1{
+    font-size: 50px;
+    color: rgb(193, 129, 129);
+    text-align: center;
+}
+.work{
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+    border-color: aliceblue;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    transition: 0.5s;
+    
+}
+.work:hover{
+background-color: rgb(255, 255, 255);
+}
+#txt{
+    position: relative;
+    left: 48%;
+}
+marquee{
+    color: rgb(193, 129, 129);
+    
+}
+
+
+
+</style>
+<body onload="startTime()">
+    <h1>TIME TO WORK</h1>
+    <div>
+        <a href="clock1.HTML">
+        <button  class="work">
+            GO TO WORK
+        </button>
+    </a>
+    </div>
+    <br>
+    <br>
+    <div id="txt"></div>
+    <marquee width="" hspace="30%" >
+    <div class="move">
+    <h2>  Success is peace of mind, which is a direct result
+        of self-satisfaction in knowing you made the effort to become 
+        the best of which you are capable
+    </h2>
+    </div>
+</marquee>
+    <script src="clock.js"></script>
+</body>
+</html>

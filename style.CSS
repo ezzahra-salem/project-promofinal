@@ -1,0 +1,23 @@
+  .pomodoro-timer {
+  text-align: center;
+}
+
+.timer {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.timer-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
